@@ -1,1 +1,10 @@
-{"posts": [{"image": "post_1.jpg", "description": "This is my test post\n", "post_date": "2019-07-04 00:00:00", "has_been_posted": true}]}
+{
+    "posts": [
+        {
+            "image": "post_1.jpg",
+            "description": "Test post 1\n",
+            "post_date": "2023-01-07 13:30:00",
+            "has_been_posted": true
+        }
+    ]
+}

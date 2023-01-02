@@ -61,6 +61,7 @@ class MyHandler(FileSystemEventHandler):
             return_date = post.post_date + timedelta(days=1)
         except Exception as e:
             print("exception")
+            print(e)
 
         exists = True
         while exists:
