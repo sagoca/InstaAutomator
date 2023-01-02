@@ -11,13 +11,13 @@ import tkinter as tk
 from tkinter import *
 import time
 
-path = '/Users/kalle/Documents/Projects/MyProjects/InstaAutomator/posts'
+path = '/Users/sangoncau/Documents/InstaAutomator/posts'
 class MyHandler(FileSystemEventHandler):
     i = 1
     new_description = ''
     def on_modified(self, event):
         self.i = 1
-        folder_path = '/Users/kalle/Documents/Projects/MyProjects/InstaAutomator/production_ready_posts'
+        folder_path = '/Users/sangoncau/Documents/InstaAutomator/production_ready_posts'
         list_of_file_names = []
         for filename in os.listdir(path): 
             new_name = "post_" + str(self.i) + ".jpg"

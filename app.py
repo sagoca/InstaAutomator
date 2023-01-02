@@ -11,7 +11,7 @@ from datetime import datetime
 import tkinter as tk
 from alert_window import AlertWindow
 
-path = '/Users/kalle/Documents/Projects/MyProjects/InstaAutomator/posts'
+path = '/Users/sangoncau/Documents/InstaAutomator/posts'
 event_handler = MyHandler()
 observer = Observer()
 observer.schedule(event_handler, path, recursive=True)
@@ -46,11 +46,3 @@ try:
 except KeyboardInterrupt:
     observer.stop()
 observer.join()
-
-
-# username = 'kallehallden'
-# password = 'kallehalldenyes'
-# image = 'posts/post1.png'
-# text = 'Hello tester'
-
-
